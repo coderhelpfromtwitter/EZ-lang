@@ -1,8 +1,9 @@
 ## Index:
 
-Intro.........................Line 7
-Keywords......................Line 15
-Compiling.....................Line 35
+Intro.........................Line 8
+Keywords......................Line 16
+Compiling.....................Line 39
+Known Bugs....................Line 66
 
 ## Introduction
 
@@ -24,11 +25,13 @@ Functions are supported in this version and can be made with a certain syntax (m
 The keyword make is used to begin a function. The keyword do starts the function. The keyword done ends it.
 The keyword call allows you to call the function you made (e.g. make the function do whatever is inside).
 The keyword if is a conditional statement. If your conditional is true, everything inside will execute. The keyword done ends the statement.
+Key characters inside an if statement are: > (greater than), < (less than), and = (equal to).
 The keyword else will execute if your conditional is false. The keyword done ends the statement.
 The keyword while will execute whatever is inside while your conditional is true.
 Don't worry about incrementing or decrementing, we already took care of that for you.
 The keyword done means you're ready for your loop to be done and do it's thing.
 The keyword input inside a setting of a variable means you take input and set it to that variable (e.g. set x to input).
+The keyword with imports a .ez file from your current directory. What this means is you can make all those lengthy functions inside a different file.
 Showing a variable inside of a formula is not supported in this version of EZ (e.g. show x + 2).
 Out of order formulas are not supported in this version of EZ (e.g. 2*3^5 is not supported, but (2*3)^5 and 2*(3^5) are supported).
 Out of order formula setting to variables is not supported in this version of EZ.
@@ -59,3 +62,7 @@ Alternative compiling method:
 1: Click your ez file.
 2: Drag it to your interpreter. On Windows it is ez.exe but on Mac/Linux it is ez.out.
 3: Watch your code run.
+
+## Known Bugs
+
+1. You may have to change the permissions on the interpreter file. An ez fix is to right click your interpreter file, click properties, and make sure you can execute it as a program.
