@@ -1,9 +1,9 @@
 ## Index:
 
 Intro.........................Line 7
-Keywords......................Line 15
-Compiling.....................Line 37
-Known Bugs....................Line 64
+Keywords......................Line 16
+Compiling.....................Line 42
+Known Bugs....................Line 70
 
 ## Introduction
 
@@ -30,7 +30,13 @@ The keyword while will execute whatever is inside while your conditional is true
 Don't worry about incrementing or decrementing, we already took care of that for you.
 The keyword done means you're ready for your loop to be done and do it's thing.
 The keyword input inside a setting of a variable means you take input and set it to that variable (e.g. set x to input).
+Want a set of things? With EZ's new basket, it's EZr than ever.
+Simply set a variable to a basket (e.g. set x to basket).
+Then, push something into it (e.g. push 82 into x).
+Show off that basket with a show keyword (e.g. show x), or show off a single element (e.g. show x[1]).
+Elements in baskets start at 0, and go up by one (e.g. x[0] will equal the first thing you push into x, x[1] will be the second).
 Showing a variable inside of a formula is not supported in this version of EZ (e.g. show x + 2).
+One line if else statements are not supported in this version of EZ (e.g. if x > 1 stuff done else stuff done).
 Out of order formulas are not supported in this version of EZ (e.g. 2*3^5 is not supported, but (2*3)^5 and 2*(3^5) are supported).
 Out of order formula setting to variables is not supported in this version of EZ.
 
