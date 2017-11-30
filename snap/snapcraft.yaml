@@ -12,9 +12,9 @@
   parts:
     ez-lang:
       # See 'snapcraft plugins'
-      plugin: pull
+      plugin: dump
       source: https://github.com/coderhelpfromtwitter/EZ-lang/archive/master.zip
 
   apps:
     ez-lang:
-      command: ./bin/ez.out
+      command: bin/ez.out
