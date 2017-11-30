@@ -8,10 +8,13 @@
     simply because it seems too hard to try our program!
 
   grade: stable # must be 'stable' to release into candidate/stable channels
-  confinement: devmode # use 'strict' once you have the right plugs and slots
 
   parts:
-    my-part:
+    ez-lang:
       # See 'snapcraft plugins'
-      plugin: nil
-  
+      plugin: dump
+      source: https://github.com/coderhelpfromtwitter/EZ-lang/archive/master.zip
+
+  apps:
+    ez-lang:
+      command: ./bin/ez.out
