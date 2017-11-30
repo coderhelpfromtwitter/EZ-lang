@@ -12,7 +12,7 @@
   parts:
     ez-lang:
       # See 'snapcraft plugins'
-      plugin: dump
+      plugin: pull
       source: https://github.com/coderhelpfromtwitter/EZ-lang/archive/master.zip
 
   apps:
