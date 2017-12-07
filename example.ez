@@ -1,6 +1,4 @@
 with sauce.ez          ; try importing
-with help.ez
-call help
 set global to 82       ; global = 82
 show global            ; shows 82
 make my_func do        ; makes my_func a function
