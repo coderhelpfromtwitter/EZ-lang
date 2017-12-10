@@ -3,7 +3,7 @@ sudo chmod +x ez.mac
 sudo mkdir /usr/local/bin
 sudo mkdir /usr/local/share
 sudo mkdir /usr/local/share/ez
-if [ __linux__ ]; then
+if [ "$(uname)" == "Linux" ]; then
 	sudo cp ez.out /usr/local/bin/ez
 	sudo rm -rf ez.mac
 else
