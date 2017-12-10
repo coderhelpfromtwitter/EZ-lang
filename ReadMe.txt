@@ -3,8 +3,8 @@
 Intro.........................Line 9
 Keywords......................Line 19
 Running.......................Line 47
-Known Bugs....................Line 80
-Updates.......................Line 90
+Known Bugs....................Line 81
+Updates.......................Line 91
 
 ## Introduction
 
@@ -49,7 +49,8 @@ Setting while loops to check for words is not supported in this version of EZ (e
 In order to create and use your program, you're going to need (for alternative, go to line 68):
 1: The interpreter that you should have downloaded.
 	A: For Windows users: ez.exe
-	B: For Mac/Linux users: ez.out
+	B: For Linux users: ez.out
+	C: For Mac users: ez.mac
 2: A command window.
 	A: For Windows users: a command prompt window.
 	B: For Mac/Linux users: a terminal window.
