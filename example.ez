@@ -62,4 +62,3 @@ make class do                ; classes!!
   call class_func            ; you can call the class function from within the class
 done                         ; finish class
 call class                   ; classes are like functions, you have to call them for them to work
-
